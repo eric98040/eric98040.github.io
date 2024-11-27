@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://eric98040.github.io/sitemap.xml
+Sitemap: https://jaewon.work/sitemap.xml
