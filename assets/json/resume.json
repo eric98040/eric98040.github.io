@@ -1,200 +1,165 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Jaewon Kim",
+    "label": "Undergraduate Student",
+    "email": "jwk0302@korea.ac.kr",
+    "url": "jaewon.work",
+    "summary": "Undergraduate Student at Korea University, Seoul, Korea focusing on Semiconductor Engineering",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Seoul",
+      "countryCode": "KR",
+      "region": "Korea"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "url": "linkedin.com/in/jaewon-kim"
+      },
+      {
+        "network": "GitHub",
+        "url": "github.com/eric98040"
+      },
+      {
+        "network": "Blog",
+        "url": "jwk0302.tistory.com"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Complex Data Analytics LAB (CDAL)",
+      "position": "Undergraduate Researcher",
+      "startDate": "2024-03-01",
+      "summary": "Research in semiconductor device simulation and generative models",
+      "highlights": [
+        "Working on Simulator acceleration and inverse design of semiconductor devices",
+        "Research on Probabilistic Generative Models (GAN, Diffusion, etc.)"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Korea University",
+      "location": "Seoul, Korea",
+      "area": "Semiconductor Engineering",
+      "studyType": "B.S.",
+      "startDate": "2022-03-01",
+      "score": "4.38/4.5",
+      "highlights": ["Complex Data Analytics LAB"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Dean's List (2022-1)",
+      "date": "2022-07-01",
+      "awarder": "Korea University",
+      "summary": "Award given to an undergraduate student with a perfect GPA (4.5/4.5) for a semester"
+    },
+    {
+      "title": "Semester High Honors",
+      "date": "2022-01-01",
+      "awarder": "Korea University",
+      "summary": "Award given to undergraduate students achieving a GPA of 4.0 or higher for a semester (2022-2, 2023-1, 2023-2, 2024-1)"
+    },
+    {
+      "title": "KU Alumni Scholarship",
+      "date": "2022-01-01",
+      "awarder": "Korea University",
+      "summary": "Merit-based scholarship awarded through SK Hynix-sponsored alumni program at KU"
+    },
+    {
+      "title": "Outstanding Poster Award",
+      "date": "2024-10-01",
+      "awarder": "SK Hynix",
+      "summary": "12th SK Hynix Academic Conference"
     }
   ],
-  "certificates": [
+  "projects": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "DiffOptics",
+      "summary": "Diffusion-Based Optical Design Generation with Wavelength and Power Control",
+      "startDate": "2024-09-01",
+      "endDate": "2024-12-01",
+      "institution": "Complex Data Analytics Lab (CDAL), Korea University"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "FSI AIxData",
+      "summary": "Dual-Pipeline Approach to Financial Fraud Detection: Balancing Classification Performance and Data Privacy",
+      "startDate": "2024-07-01",
+      "endDate": "2024-10-01",
+      "institution": "Financial Security Institute (FSI)"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "name": "OpticalGAN",
+      "summary": "Power-Wavelength Conditional Generation of Photonic Devices",
+      "startDate": "2024-03-01",
+      "endDate": "2024-06-01",
+      "institution": "Complex Data Analytics Lab (CDAL), Korea University"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "name": "CartoonGAN+",
+      "summary": "Architectural Modifications for Stable Anime Style Transfer",
+      "startDate": "2024-04-01",
+      "endDate": "2024-06-01",
+      "institution": "BITAmin 12th Project"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "name": "INSIDE OUT",
+      "summary": "Multi-label Emotion Classification and Instance Segmentation for Animated Characters",
+      "startDate": "2024-01-01",
+      "endDate": "2024-03-01",
+      "institution": "BITAmin 12th Project"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Optimal Motion Blur Preprocessing",
+      "summary": "High-Speed Object Detection",
+      "startDate": "2023-09-01",
+      "endDate": "2023-12-01",
+      "institution": "SEMI204, Korea University"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Research Areas",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Generative Models (Diffusion, GANs, etc.)",
+        "3D reconstruction and change detection",
+        "Neural Rendering",
+        "Physics Simulation",
+        "Graph Neural Networks (GNN)"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "language": "Korean",
+      "fluency": "Native"
     },
     {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "Proficient"
     }
   ],
-  "interests": [
+  "volunteer": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "organization": "Young Engineers' Honor Society (YEHS)",
+      "position": "Member",
+      "startDate": "2024-03-01",
+      "summary": "Organization under The National Academy of Engineering of Korea (NAEK)"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
+      "organization": "BITAmin",
+      "position": "Member",
+      "startDate": "2023-08-01",
+      "endDate": "2024-08-01",
+      "summary": "Intercollegiate offline study group focusing on ML/DL research and projects"
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "organization": "Korea University International Student Assistant (KUISA)",
+      "position": "Member",
+      "startDate": "2023-03-01",
+      "endDate": "2023-12-01",
+      "summary": "Voluntary student organization under Global Services Center"
     }
   ]
 }
