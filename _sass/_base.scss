@@ -209,12 +209,16 @@ ul.task-list input[type="checkbox"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100% 
     padding: 1rem;
     margin-top: 1rem;
     
     a {
+      width: 20%;
+      text-align: center;
+      
       img {
-        width: 25px;
+        width: 100%;
         height: auto;
         opacity: 0.75;
         transition: opacity 0.2s ease-in-out;
