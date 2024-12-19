@@ -1,10 +1,16 @@
 ---
+layout: redirect
 permalink: /cv/
-redirect_to: /assets/pdf/CV_Jaewon_Kim.pdf
 title: cv
 nav: true
 nav_order: 1
+redirect_url: /assets/pdf/CV_Jaewon_Kim.pdf
 ---
+
+<meta http-equiv="refresh" content="0; url={{ page.redirect_url | relative_url }}">
+<script type="text/javascript">
+    window.location.href = "{{ page.redirect_url | relative_url }}"
+</script>
 
 {% comment %}
 Original configuration:
