@@ -8,9 +8,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Complex Data Analytics Lab</p>
-    <p>Korea University</p>
-    <p>Seoul, Korea</p>
 news: true
 selected_papers: true
 social: true
