@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I started an undergraudate research internship at [CDAL](https://sites.google.com/view/ku-cdal)
+I started an `undergraudate research internship` at [CDAL](https://sites.google.com/view/ku-cdal)
