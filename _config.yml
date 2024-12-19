@@ -305,8 +305,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["Fundamental", "Paper Review", "RL", "Linear Algebra", "Calculus", "Probability", "Mathematical Analysis", "Introductory"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["Introductory", "Fundamental", "Paper Review", "Application"] # these tags will be displayed on the front page of your blog
+display_categories: ["RL", "Generative Model", "Linear Algebra", "Calculus", "Probability", "Mathematical Analysis"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
