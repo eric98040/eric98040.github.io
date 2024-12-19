@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate Researcher at CDAL | Korea University
+subtitle: Korea University | Undergraduate Researcher at CDAL
 profile:
   align: right
   image: prof_pic.jpg
