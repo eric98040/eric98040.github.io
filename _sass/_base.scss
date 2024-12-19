@@ -212,24 +212,23 @@ ul.task-list input[type="checkbox"] {
     width: 100%;
     padding: 1rem;
     margin-top: 1rem;
-    
+  
     a {
       width: 20%;
       text-align: center;
-      
+    
       img {
         width: 100%;
         height: auto;
         opacity: 0.75;
         transition: opacity 0.2s ease-in-out;
-        
+      
         &:hover {
           opacity: 1;
         }
       }
     }
   }
-}
 
 .profile.float-right {
   margin-left: 1rem;
