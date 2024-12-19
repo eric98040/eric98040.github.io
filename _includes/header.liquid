@@ -97,10 +97,14 @@
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
-                  {% if p.title == 'cv' %}
-                    <a class="nav-link" href="{{ '/assets/pdf/CV_Jaewon_Kim.pdf' | relative_url }}">
+                  {% if p.title == 'cv' or p.title == 'CV' %}
+                    <a class="nav-link" href="{{ '/assets/pdf/CV_Jaewon_Kim.pdf' | relative_url }}" target="_blank">
                   {% else %}
-                    {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
+                    {% if p.permalink contains '/blog/' %}
+                      {% assign url = '/blog/' %}
+                    {% else %}
+                      {% assign url = p.url %}
+                      {% endif %}
                     <a class="nav-link" href="{{ url | relative_url }}">
                   {% endif %}
                     {{- p.title }}
