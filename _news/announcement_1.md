@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Won `Outstanding Poster Award` for the 12th SK Hynix Academic Conference with the `OpticalGAN`
+Presented `OpticalGAN` at the 12th SK Hynix Academic Conference, receiving the `Outstanding Poster Award`
