@@ -19,16 +19,20 @@ layout: default
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
           %}
         {% endif %}
+        <div class="profile-social-icons">
+          <a href="mailto:{{ site.email | encode_email }}"><img src="/assets/img/icons/email.png" alt="email"/></a>
+          <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><img src="/assets/img/icons/scholar.png" alt="Google Scholar"/></a>
+          <a href="https://inspirehep.net/authors/{{ site.inspirehep_id }}"><img src="/assets/img/icons/inspire.png" alt="Inspire"/></a>
+          <a href="{{ '/feed.xml' | relative_url }}"><img src="/assets/img/icons/rss.png" alt="RSS Feed"/></a>
+        </div>
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
