@@ -41,7 +41,7 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <div class="separator" style="margin: 30px 0; border-top: 2px solid var(--global-divider-color);"></div>
+    <div class="separator" style="margin: 20px 0; border-top: 2px solid var(--global-divider-color);"></div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
@@ -51,7 +51,7 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <div class="separator" style="margin: 30px 0; border-top: 2px solid var(--global-divider-color);"></div>
+    <div class="separator" style="margin: 20px 0; border-top: 2px solid var(--global-divider-color);"></div>
 
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
