@@ -28,10 +28,10 @@ layout: default
           %}
         {% endif %}
         <div class="profile-social-icons">
-          <a href="mailto:{{ site.email | encode_email }}"><img src="/assets/img/icons/email.png" alt="email"/></a>
-          <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><img src="/assets/img/icons/scholar.png" alt="Google Scholar"/></a>
-          <a href="https://inspirehep.net/authors/{{ site.inspirehep_id }}"><img src="/assets/img/icons/inspire.png" alt="Inspire"/></a>
-          <a href="{{ '/feed.xml' | relative_url }}"><img src="/assets/img/icons/rss.png" alt="RSS Feed"/></a>
+          <a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>
+          <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://inspirehep.net/authors/{{ site.inspirehep_id }}"><i class="ai ai-inspire"></i></a>
+          <a href="{{ '/feed.xml' | relative_url }}"><i class="fas fa-rss"></i></a>
         </div>
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
@@ -65,8 +65,7 @@ layout: default
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
-    {% endcomment %}
-
+    
     <!-- Social -->
     {% if page.social %}
       <div class="social">
@@ -75,6 +74,7 @@ layout: default
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
+    {% endcomment %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}
