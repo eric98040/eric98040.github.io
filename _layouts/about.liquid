@@ -61,7 +61,6 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    {% comment %}
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
@@ -78,7 +77,6 @@ layout: default
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
-    {% endcomment %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}
