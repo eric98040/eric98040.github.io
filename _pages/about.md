@@ -9,8 +9,8 @@ profile:
  image_circular: false
  more_info: >
 news: true
-selected_papers: false
-social: false
+selected_papers: true
+social: true
 ---
 
 Welcome! :wave: I am an undergraduate student in Semiconductor Engineering at Korea University, working as a researcher at [Complex Data Analytics Lab (CDAL)](https://sites.google.com/view/ku-cdal) under Prof. Junhee Seok's guidance.
