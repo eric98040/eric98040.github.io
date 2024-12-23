@@ -87,7 +87,7 @@ The key innovation of VAEs lies in their ability to learn complex probability di
 
 ### Variational Inference
 
-Variational inference is a method from Bayesian statistics that approximates complex posterior distributions with simpler ones. Given a latent variable model $$p(x,z)$$, we want to approximate the true posterior $$p(z|x)$$ with a simpler distribution $$q_{\phi}(z|x)$$.
+Variational inference is a method from Bayesian statistics that approximates complex posterior distributions with simpler ones. Given a latent variable model $$p(x,z)$$, we want to approximate the true posterior $$p(z|x)$$ with a simpler distribution $$q_{\phi}(z|x)$$.  
 
 ### Expectation-Maximization Algorithm
 
@@ -198,7 +198,7 @@ where:
 
 ### The Reparameterization Trick
 
-A key innovation of VAEs is the reparameterization trick, which enables backpropagation through random sampling. Instead of directly sampling from $$q_{\phi}(z|x)$$, we sample from a simple distribution $$\epsilon \sim \mathcal{N}(0,I)$$ and transform it:
+A key innovation of VAEs is the reparameterization trick, which enables backpropagation through random sampling. Instead of directly sampling from $$q_{\phi}(z|x)$$, we sample from a simple distribution $$\epsilon \sim \mathcal{N}(0,I)$$ and transform it:  
 
 $$
 z = \mu_{\phi}(x) + \sigma_{\phi}(x) \odot \epsilon, \quad \epsilon \sim \mathcal{N}(0,I)
