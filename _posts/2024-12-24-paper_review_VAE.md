@@ -192,8 +192,8 @@ $$
 $$
 
 where:
-- $$p_{\theta}(x|z)$$ is the decoder (generative model)
-- $$q_{\phi}(z|x)$$ is the encoder (inference model)
+- $$p_{\theta}(x\|z)$$ is the decoder (generative model)
+- $$q_{\phi}(z\|x)$$ is the encoder (inference model)
 - $$p(z)$$ is the prior on the latent space
 
 ### The Reparameterization Trick
