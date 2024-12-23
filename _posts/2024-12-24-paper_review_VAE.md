@@ -105,7 +105,7 @@ The EM algorithm is a classical approach for learning latent variable models. It
 
 **Key limitations of EM**:
 - Requires computation of true posterior
-- $$p(z|x)$$
+$$p(z|x)$$
 - E-step often intractable for complex models
 - Not directly applicable to large datasets
 
