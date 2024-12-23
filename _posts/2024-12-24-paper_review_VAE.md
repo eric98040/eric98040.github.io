@@ -381,20 +381,24 @@ Recent work has addressed these limitations through:
 For both prior $$p_\theta(z) = \mathcal{N}(0, I)$$ and posterior approximation 
 $$q_\phi(z|x)$$ being Gaussian, the KL term can be computed analytically:
 
+
 1. **For a univariate Gaussian**:
 $$
 \int q_\theta(z)\log p(z)dz = \int \mathcal{N}(z; \mu, \sigma^2)\log \mathcal{N}(z; 0, I)dz = -\frac{1}{2}\log(2\pi) - \frac{1}{2}(\mu^2 + \sigma^2)
 $$  
+
 
 2. **For $$q_\theta(z)$$**:
 $$
 \int q_\theta(z)\log q_\theta(z)dz = \int \mathcal{N}(z; \mu, \sigma^2)\log \mathcal{N}(z; \mu, \sigma^2)dz = -\frac{1}{2}\log(2\pi) - \frac{1}{2}(1 + \log \sigma^2)
 $$  
 
+
 3. **Therefore**:
 $$
 -D_{KL}(q_\phi(z|x)||p_\theta(z)) = \frac{1}{2}\sum_{j=1}^J(1 + \log((\sigma_j)^2) - (\mu_j)^2 - (\sigma_j)^2)
 $$
+
 
 ### Marginal Likelihood Estimator
 
