@@ -1,6 +1,3 @@
-Sure, I've updated your Markdown file by replacing all single dollar signs `$...$` with double dollar signs `$$...$$` for display math and ensured that `theta` and `phi` are properly formatted using LaTeX commands `\theta` and `\phi` within math delimiters. Below is the modified Markdown content:
-
-```markdown
 ---
 layout: distill
 title: "Paper Review: VAE - Auto-Encoding Variational Bayes"
