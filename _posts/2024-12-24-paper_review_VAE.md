@@ -1,7 +1,42 @@
 ---
 layout: distill
-title: [Paper Review] VAE - Auto-Encoding Variational Bayes 
-description: A review of the foundational paper on Variational Autoencoders
+title: "Paper Review: VAE - Auto-Encoding Variational Bayes"
+description: "A review of the foundational paper on Variational Autoencoders"
+date: 2024-12-23
+slug: vae-paper-review
+permalink: /papers/vae-paper-review/
+categories: machine-learning
+tags: deep-learning generative-models vae
+featured: true
+paper_authors:
+  - name: Diederik P. Kingma
+    url: "https://dpkingma.com"
+    affiliations:
+      name: Machine Learning Group, Universiteit van Amsterdam
+  - name: Max Welling
+    url: "https://staff.fnwi.uva.nl/m.welling/"
+    affiliations:
+      name: Machine Learning Group, Universiteit van Amsterdam
+
+bibliography: 2024-12-23-vae.bib
+
+toc:
+  - name: Introduction
+  - name: Background
+    subsections:
+      - name: Variational Inference
+      - name: EM Algorithm
+      - name: Monte Carlo EM
+      - name: Auto-Encoders
+  - name: Method
+    subsections:
+      - name: Problem Scenario
+      - name: The Variational Bound
+      - name: The Reparameterization Trick
+      - name: SGVB Estimator
+  - name: Technical Details
+  - name: Results
+  - name: Discussion
 tags: deep-learning generative-models vae
 date: 2024-12-23
 
