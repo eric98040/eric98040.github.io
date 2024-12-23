@@ -109,9 +109,13 @@ Key limitations of EM:
 Monte Carlo EM (MCEM) attempts to address intractability by using sampling:
 
 1. E-step: Draw samples from posterior using MCMC:
-   $z^{(l)} \sim p(z|x,\theta^{old})$
-   Approximate Q-function:
-   $Q(\theta|\theta^{old}) \approx \frac{1}{L}\sum_{l=1}^L \log p(x,z^{(l)}|\theta)$
+   $
+z^{(l)} \sim p(z|x,\theta^{old})
+$
+
+$
+Q(\theta|\theta^{old}) \approx \frac{1}{L}\sum_{l=1}^L \log p(x,z^{(l)}|\theta)
+$
 
 2. M-step: Same as standard EM
 
@@ -139,7 +143,7 @@ Key assumptions:
 - The true parameters θ* and values of latent variables z^(i) are unknown
 
 Important challenges addressed:
-1. **Intractability**: The marginal likelihood p_θ(x) = ∫ p_θ(z)p_θ(x|z)dz is intractable
+1. **Intractability**: The marginal likelihood $p_\theta(x) = \int p_\theta(z)p_\theta(x|z)dz$ is intractable
 2. **Large datasets**: Batch optimization is too costly; need efficient minibatch methods
 
 The paper aims to solve:
@@ -151,7 +155,9 @@ The paper aims to solve:
 
 For a single datapoint, the marginal likelihood can be rewritten as:
 
-$\log p_\theta(x^{(i)}) = D_{KL}(q_\phi(z|x^{(i)})||p_\theta(z|x^{(i)})) + \mathcal{L}(\theta, \phi; x^{(i)})$
+$
+\log p_\theta(x^{(i)}) = D_{KL}(q_\phi(z|x^{(i)})||p_\theta(z|x^{(i)})) + \mathcal{L}(\theta, \phi; x^{(i)})
+$
 
 where:
 - First term is the KL divergence between approximate and true posterior
@@ -160,10 +166,14 @@ where:
 The lower bound can be written in two instructive ways:
 
 1. As an expectation of a complete log-likelihood:
-   $\mathcal{L}(\theta, \phi; x^{(i)}) = \mathbb{E}_{q_\phi(z|x)}[\log p_\theta(x,z) - \log q_\phi(z|x)]$
+   $
+\mathcal{L}(\theta, \phi; x^{(i)}) = \mathbb{E}_{q_\phi(z|x)}[\log p_\theta(x,z) - \log q_\phi(z|x)]
+$
 
 2. As reconstruction error minus KL divergence:
-   $\mathcal{L}(\theta, \phi; x^{(i)}) = -D_{KL}(q_\phi(z|x^{(i)})||p_\theta(z)) + \mathbb{E}_{q_\phi(z|x^{(i)})}[\log p_\theta(x^{(i)}|z)]$
+   $
+\mathcal{L}(\theta, \phi; x^{(i)}) = -D_{KL}(q_\phi(z|x^{(i)})||p_\theta(z)) + \mathbb{E}_{q_\phi(z|x^{(i)})}[\log p_\theta(x^{(i)}|z)]
+$
 
 A key challenge is that the naive Monte Carlo gradient estimator:
 $\nabla_\phi \mathbb{E}_{q_\phi(z)}[f(z)] \approx \frac{1}{L}\sum_{l=1}^L f(z^{(l)})\nabla_{q_\phi(z^{(l)})}\log q_\phi(z^{(l)})$
@@ -182,18 +192,25 @@ where:
 
 A key innovation of VAEs is the reparameterization trick, which enables backpropagation through random sampling. Instead of directly sampling from $q_{\phi}(z|x)$, we sample from a simple distribution $\epsilon \sim \mathcal{N}(0,I)$ and transform it:
 
-$$z = \mu_{\phi}(x) + \sigma_{\phi}(x) \odot \epsilon$$
+$$
+z = \mu_{\phi}(x) + \sigma_{\phi}(x) \odot \epsilon, \quad \epsilon \sim \mathcal{N}(0,I)
+$$
 
 ### SGVB Estimator and AEVB Algorithm
 
 The Stochastic Gradient Variational Bayes (SGVB) estimator comes in two forms:
 
 1. Generic estimator:
-   $\tilde{\mathcal{L}}^A(\theta, \phi; x^{(i)}) = \frac{1}{L}\sum_{l=1}^L \log p_\theta(x^{(i)}, z^{(i,l)}) - \log q_\phi(z^{(i,l)}|x^{(i)})$
-   where $z^{(i,l)} = g_\phi(\epsilon^{(l)}, x^{(i)})$ and $\epsilon^{(l)} \sim p(\epsilon)$
+   $
+\tilde{\mathcal{L}}^A(\theta, \phi; x^{(i)}) = \frac{1}{L}\sum_{l=1}^L \log p_\theta(x^{(i)}, z^{(i,l)}) - \log q_\phi(z^{(i,l)}|x^{(i)})
+$
+
+where $z^{(i,l)} = g_\phi(\epsilon^{(l)}, x^{(i)})$ and $\epsilon^{(l)} \sim p(\epsilon)$
 
 2. For cases where the KL divergence is analytically tractable:
-   $\tilde{\mathcal{L}}^B(\theta, \phi; x^{(i)}) = -D_{KL}(q_\phi(z|x^{(i)})||p_\theta(z)) + \frac{1}{L}\sum_{l=1}^L \log p_\theta(x^{(i)}|z^{(i,l)})$
+   $
+\tilde{\mathcal{L}}^B(\theta, \phi; x^{(i)}) = -D_{KL}(q_\phi(z|x^{(i)})||p_\theta(z)) + \frac{1}{L}\sum_{l=1}^L \log p_\theta(x^{(i)}|z^{(i,l)})
+$
 
 The complete Auto-Encoding Variational Bayes (AEVB) algorithm:
 
@@ -219,7 +236,9 @@ def AEVB_algorithm(X):
 
 For Gaussian encoder and prior, the KL divergence term has the analytical solution:
 
-$-D_{KL} = \frac{1}{2}\sum_{j=1}^J(1 + \log((\sigma_j)^2) - (\mu_j)^2 - (\sigma_j)^2)$
+$
+-D_{KL} = \frac{1}{2}\sum_{j=1}^J(1 + \log((\sigma_j)^2) - (\mu_j)^2 - (\sigma_j)^2)
+$
 
 The Stochastic Gradient Variational Bayes (SGVB) estimator allows efficient optimization of the ELBO using stochastic gradient descent:
 
