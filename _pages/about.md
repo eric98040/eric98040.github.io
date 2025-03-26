@@ -17,7 +17,7 @@ Welcome! :wave: I am an undergraduate student in Semiconductor Engineering at Ko
 
 What excites me most about AI research is diving deep into the `mathematical foundations` that make these systems work. Rather than just implementing existing solutions, I love breaking down complex problems into their basic components and building them back up – it's like solving a puzzle where each piece has its own mathematical beauty.
 
-My research focuses on improving the efficiency of generative models and reinforcement learning while exploring `Physical AI`—a field that integrates principles of physics with AI systems to enhance model design, optimization, and real-world applicability. Physical AI involves applying physical laws and constraints to inform AI model development, making the models more robust and interpretable in practical scenarios.
+My research focuses on improving the efficiency of `generative models` and `reinforcement learning` while exploring `Physical AI`—a field that integrates principles of physics with AI systems to enhance model design, optimization, and real-world applicability. Physical AI involves applying physical laws and constraints to inform AI model development, making the models more robust and interpretable in practical scenarios.
 
 I share insights and technical breakdowns of deep learning and AI concepts on my [tech blog](https://www.jaewon.work/blog). If you are interested in research that blends deep learning, efficient algorithms, and the physics-inspired side of AI, let's connect.
 
