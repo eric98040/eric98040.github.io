@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: repositories
 description: A collection of my open-source contributions and personal projects. Feel free to explore and collaborate!
-nav: true
+nav: false
 nav_order: 3
 ---
 
