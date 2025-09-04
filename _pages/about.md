@@ -22,9 +22,10 @@ My research focuses on improving the efficiency of `generative models` and `rein
 I share insights and technical breakdowns of deep learning and AI concepts on my [tech blog](https://www.jaewon.work/blog). If you are interested in research that blends deep learning, efficient algorithms, and the physics-inspired side of AI, let's connect.
 
 **Research Interests**  
-* **Generative Models:** Diffusion models, GANs, with emphasis on precise control and optimization  
-* **Reinforcement Learning:** Both model-based and model-free approaches, sample efficiency  
-* **Physical AI:** Integrating physical principles in AI systems for enhanced real-world problem solving
+* **Generative Models**
+* **Stochastic Partial Differential Equations**
+* **Deep Reinforcement Learning** 
+* **Physics-Informed Machine Learning** 
 
 
 
