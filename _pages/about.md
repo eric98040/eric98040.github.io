@@ -13,19 +13,28 @@ selected_papers: false
 social: false
 ---
 
-Welcome! :wave: I am an undergraduate student in Semiconductor Engineering at Korea University and a researcher at [Complex Data Analytics Lab (CDAL)](https://sites.google.com/view/ku-cdal) under the guidance of Prof. Junhee Seok.  
+Welcome! :wave: I am an undergraduate student in Semiconductor Engineering at Korea University and an undergraduate researcher at the [Complex Data Analytics Lab (CDAL)](https://sites.google.com/view/ku-cdal), advised by Prof. Junhee Seok.
 
-What excites me most about AI research is diving deep into the `mathematical foundations` that make these systems work. Rather than just implementing existing solutions, I love breaking down complex problems into their basic components and building them back up – it's like solving a puzzle where each piece has its own mathematical beauty.
+My research interests center on advancing machine learning methods that combine mathematical rigor with practical applicability. I am particularly interested in how the principles of probability, differential equations, and physics can inform the design of more robust and efficient learning algorithms. In particular, I focus on areas such as generative models, stochastic partial differential equations, deep reinforcement learning, and physics-informed machine learning.
 
-My research focuses on improving the efficiency of `generative models` and `reinforcement learning` while exploring `Physical AI`—a field that integrates principles of physics with AI systems to enhance model design, optimization, and real-world applicability. Physical AI involves applying physical laws and constraints to inform AI model development, making the models more robust and interpretable in practical scenarios.
+I believe that blending these directions provides a pathway toward models that are not only powerful but also grounded in mathematic principles.
 
-I share insights and technical breakdowns of deep learning and AI concepts on my [tech blog](https://www.jaewon.work/blog). If you are interested in research that blends deep learning, efficient algorithms, and the physics-inspired side of AI, let's connect.
+You can find more details about my academic background and experiences in my [Curriculum Vitae (CV)](/assets/CV_Jaewon_Kim.pdf).
+
+<p align="center">
+  <a href="/assets/CV_Jaewon_Kim.pdf" class="btn btn-primary" style="padding:10px 20px; background-color:#2d6cdf; color:white; border-radius:8px; text-decoration:none;">
+    📄 Download CV
+  </a>
+</p>  
 
 **Research Interests**  
 * **Generative Models**
 * **Stochastic Partial Differential Equations**
 * **Deep Reinforcement Learning** 
-* **Physics-Informed Machine Learning** 
+* **Physics-Informed Machine Learning**
+
+
+
 
 
 
