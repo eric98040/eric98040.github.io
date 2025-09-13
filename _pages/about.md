@@ -22,7 +22,7 @@ I believe that blending these directions provides a pathway toward models that a
 You can find more details about my academic background and experiences in my [Curriculum Vitae (CV)](/assets/CV_Jaewon_Kim.pdf).
 
 <p align="center">
-  <a href="/assets/CV_Jaewon_Kim.pdf" class="btn btn-primary" style="padding:10px 20px; background-color:#2d6cdf; color:white; border-radius:8px; text-decoration:none;">
+  <a href="/assets/pdf/CV_Jaewon_Kim.pdf" class="btn btn-primary" style="padding:10px 20px; background-color:#2d6cdf; color:white; border-radius:8px; text-decoration:none;">
     📄 Download CV
   </a>
 </p>  
