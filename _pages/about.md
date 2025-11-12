@@ -19,9 +19,6 @@ My research interests center on advancing machine learning methods that are buil
 
 I believe that blending these directions provides a pathway toward models that are not only powerful but also grounded in mathematical principles.
 
-You can find more details about my academic background and experiences in my [`Curriculum Vitae (CV)`](/assets/pdf/CV_Jaewon_Kim.pdf).
-
-
 **Research Interests**  
 * **Generative Models**
 * **Stochastic Partial Differential Equations**
