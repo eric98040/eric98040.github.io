@@ -88,6 +88,7 @@ keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: jaewonwork # your LinkedIn user name
+cv_path: /assets/pdf/CV_Jaewon_Kim.pdf 
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: # your ORCID ID
