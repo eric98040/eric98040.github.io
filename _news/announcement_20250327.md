@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started mandatory military service as a Social Service Agent, continuing research activities during off-hours.
+Started `mandatory military service` as a Social Service Agent, continuing research activities during off-hours.
