@@ -5,7 +5,7 @@ title: blog
 nav: true
 nav_order: 5
 pagination:
-  enabled: true
+  enabled: false
   collection: posts
   permalink: /page/:num/
   per_page: 5
