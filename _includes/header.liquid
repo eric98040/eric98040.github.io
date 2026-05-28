@@ -105,7 +105,10 @@
                       {% endif %}
                     </a>
                   {% else %}
-                    <a class="nav-link" href="{% if p.permalink contains '/blog/' %}{{ '/blog/' | relative_url }}{% else %}{{ p.url | relative_url }}{% endif %}">
+                    <a
+                      class="nav-link"
+                      href="{% if p.permalink contains '/blog/' %}{{ '/blog/' | relative_url }}{% else %}{{ p.url | relative_url }}{% endif %}"
+                    >
                       {{- p.title }}
                       {% if page.url contains p.url %}
                         <span class="sr-only">(current)</span>
