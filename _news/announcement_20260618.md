@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper `Fokker–Planck Soft Actor–Critic` has been accepted to [`IEEE TNNLS`](https://ieeexplore.ieee.org/document/11563480) (Early Access) :tada:
+Our paper `Fokker–Planck Soft Actor–Critic` has been accepted to [`IEEE TNNLS`](https://ieeexplore.ieee.org/document/11563480) :tada:
