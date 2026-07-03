@@ -15,11 +15,11 @@ social: false
 
 Welcome! :wave: I am an undergraduate student in Semiconductor Engineering at Korea University and an undergraduate researcher at the [`Complex Data Analytics Lab (CDAL)`](https://sites.google.com/view/ku-cdal), advised by Prof. Junhee Seok.
 
-My research interests center on advancing machine learning methods that are built on strong mathematical foundations while remaining applicable to real-world problems. I am particularly interested in how concepts from probability, differential equations, and physics can guide the design of more reliable and efficient learning algorithms, with applications ranging from generative models to reinforcement learning. I believe that blending these directions provides a pathway toward models that are not only powerful but also grounded in mathematical principles.
+My research focuses on machine learning methods with strong mathematical foundations. I am particularly interested in how concepts from probability, differential equations, and physics can be used to design more reliable and expressive learning algorithms. My current work spans generative models and deep reinforcement learning, with a broader interest in applying these methods to problems in science and engineering.
 
 **Research Interests**
 
+- **AI for Science**
 - **Generative Models**
-- **Stochastic Partial Differential Equations**
 - **Deep Reinforcement Learning**
 - **Physics-Informed Machine Learning**
