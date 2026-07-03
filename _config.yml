@@ -314,8 +314,8 @@ display_categories: ["Introductory", "Fundamental", "Paper Review", "Application
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Kim]
+  first_name: [Jaewon, J.]
 
   style: apa
   locale: en
