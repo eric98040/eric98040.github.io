@@ -4,19 +4,19 @@
    ------------------------------------------------------------------ */
 
 :root {
-  --paper: #fbfaf6;
-  --ink: #232622;
-  --ink-strong: #161918;
-  --muted: #65645e;
-  --rule: #ddd7cd;
-  --card: #f1eee6;
-  --accent: #365f6b;
-  --accent-hover: #294652;
-  --accent-soft: #a5b7b8;
-  --header-bg: rgb(251 250 246 / 0.82);
+  --paper: #ffffff;
+  --ink: #1f2328;
+  --ink-strong: #111418;
+  --muted: #57606a;
+  --rule: #e4e7eb;
+  --card: #f3f5f7;
+  --accent: #1f5fa8;
+  --accent-hover: #174a85;
+  --accent-soft: #a9c3e2;
+  --header-bg: rgb(255 255 255 / 0.88);
   --figure-bg: #ffffff;
-  --glow: rgb(103 154 170 / 0.1);
-  --serif: "Crimson Pro", Georgia, serif;
+  --glow: transparent;
+  --serif: var(--sans);
   --sans: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
@@ -27,12 +27,12 @@ html.dark {
   --muted: #b1b6ad;
   --rule: #383e39;
   --card: #212723;
-  --accent: #a8ccd4;
+  --accent: #8ab8ec;
   --accent-hover: #c9e0e5;
   --accent-soft: #4b6a72;
   --header-bg: rgb(22 25 24 / 0.82);
   --figure-bg: #f7f6f2;
-  --glow: rgb(73 125 144 / 0.12);
+  --glow: transparent;
 }
 
 *,
@@ -413,7 +413,27 @@ html.dark .cv-reader { background: #303632; }
 .figure-box.strip { display: block; height: auto; padding: 14px 14px 8px; }
 .research-thumbnail { display: block; width: 100%; height: auto; }
 .fig-label { font-family: var(--sans); font-size: 15px; fill: #4b514d; }
-.fig-label-accent { fill: #365f6b; font-weight: 700; }
+.fig-label-accent { fill: #1f5fa8; font-weight: 700; }
 .research-project { grid-template-columns: 380px minmax(0, 1fr); gap: 44px; }
 @media (max-width: 900px) { .research-project { grid-template-columns: 300px minmax(0, 1fr); gap: 30px; } }
 @media (max-width: 640px) { .research-project { grid-template-columns: 1fr; gap: 22px; } }
+
+/* ---------- Typography: one sans family, modest headings ---------- */
+.site-title { font-size: 1.15rem; font-weight: 700; letter-spacing: 0; }
+.home-intro h1 { font-size: clamp(2.3rem, 4.2vw, 2.9rem); font-weight: 700; letter-spacing: -.015em; line-height: 1.1; }
+.page-intro h1 { font-size: 2.6rem; font-weight: 700; letter-spacing: -.015em; line-height: 1.1; margin: 0 0 14px; }
+.intro-role { margin-top: 8px; }
+.intro-lead { font-size: 1.3rem; font-weight: 400; line-height: 1.45; letter-spacing: 0; margin: 22px 0 18px; color: var(--ink); }
+.section-topline h2 { font-size: 1.4rem; font-weight: 700; letter-spacing: -.005em; }
+.direction h3 { font-size: 1.12rem; font-weight: 700; letter-spacing: 0; margin: 8px 0 8px; }
+.selected-card h3 { font-size: 1.2rem; font-weight: 700; letter-spacing: 0; }
+.project-copy h2 { font-size: 1.3rem; font-weight: 700; letter-spacing: -.005em; line-height: 1.35; }
+.venue { letter-spacing: .04em; }
+.figure-placeholder strong { font-size: 1.2rem; font-weight: 700; letter-spacing: 0; }
+.nav-link[aria-current="page"] { border-bottom-color: var(--accent); }
+@media (max-width: 640px) {
+  .home-intro h1 { font-size: 2.3rem; }
+  .page-intro h1 { font-size: 2.2rem; }
+  .intro-lead { font-size: 1.2rem; }
+  .project-copy h2 { font-size: 1.2rem; }
+}
