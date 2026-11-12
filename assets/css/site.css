@@ -4,7 +4,7 @@
    ------------------------------------------------------------------ */
 
 :root {
-  --paper: #f5f7fa;
+  --paper: #ffffff;
   --ink: #1f2328;
   --ink-strong: #111418;
   --muted: #57606a;
@@ -13,7 +13,7 @@
   --accent: #1f5fa8;
   --accent-hover: #174a85;
   --accent-soft: #a9c3e2;
-  --header-bg: rgb(245 247 250 / 0.9);
+  --header-bg: rgb(255 255 255 / 0.9);
   --figure-bg: #ffffff;
   --glow: transparent;
   --serif: var(--sans);
@@ -441,5 +441,5 @@ html.dark .cv-reader { background: #303632; }
 /* Lining numerals for dates and years */
 body { font-variant-numeric: lining-nums; font-feature-settings: "lnum" 1; }
 .fig-label { font-feature-settings: "lnum" 1; }
-/* Lightly tinted page so the white-background portrait reads as a photo */
+/* Portrait */
 .portrait-block img { border-radius: 6px; }
