@@ -441,3 +441,5 @@ html.dark .cv-reader { background: #303632; }
 /* Raleway defaults to old-style figures; use lining numerals for dates and years */
 body { font-variant-numeric: lining-nums; font-feature-settings: "lnum" 1; }
 .fig-label { font-feature-settings: "lnum" 1; }
+/* Visible edge for a white-background portrait on a white page */
+.portrait-block img { border: 1px solid #d6dbe1; border-radius: 6px; box-shadow: 0 1px 2px rgb(16 24 40 / .06), 0 4px 12px -6px rgb(16 24 40 / .12); }
