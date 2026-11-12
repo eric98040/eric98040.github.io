@@ -443,3 +443,9 @@ body { font-variant-numeric: lining-nums; font-feature-settings: "lnum" 1; }
 .fig-label { font-feature-settings: "lnum" 1; }
 /* Portrait */
 .portrait-block img { border-radius: 6px; }
+
+/* Larger portrait slot for the full, uncropped photo */
+.home-intro { grid-template-columns: minmax(0, 1fr) 300px; gap: 56px; }
+.portrait-block img { width: 300px; }
+@media (max-width: 900px) { .home-intro { grid-template-columns: minmax(0, 1fr) 220px; gap: 38px; } .portrait-block img { width: 220px; } }
+@media (max-width: 640px) { .portrait-block img { width: 160px; } }
