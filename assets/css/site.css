@@ -17,7 +17,7 @@
   --figure-bg: #ffffff;
   --glow: transparent;
   --serif: var(--sans);
-  --sans: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --sans: "Raleway", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 html.dark {
@@ -438,3 +438,6 @@ html.dark .cv-reader { background: #303632; }
   .project-copy h2 { font-size: 1.2rem; }
 }
 .intro-lead { margin: 32px 0 28px; }
+/* Raleway defaults to old-style figures; use lining numerals for dates and years */
+body { font-variant-numeric: lining-nums; font-feature-settings: "lnum" 1; }
+.fig-label { font-feature-settings: "lnum" 1; }
