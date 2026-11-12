@@ -437,3 +437,4 @@ html.dark .cv-reader { background: #303632; }
   .intro-lead { font-size: 1.2rem; }
   .project-copy h2 { font-size: 1.2rem; }
 }
+.intro-lead { margin: 32px 0 28px; }
