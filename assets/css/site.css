@@ -405,3 +405,6 @@ html.dark .cv-reader { background: #303632; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+.figure-note { font-size: .74rem; line-height: 1.55; color: var(--muted); margin-top: 6px; }
+.figure-note em { font-family: var(--serif); font-size: .9rem; }
