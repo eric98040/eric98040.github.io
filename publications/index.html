@@ -41,7 +41,7 @@
     <main id="main" tabindex="-1">
       <header class="page-intro">
         <h1>Publications</h1>
-        <p>Generative models, reinforcement learning, and physics-informed learning.<br />A closer look at the questions behind each paper.</p>
+        <p>Generative models, reinforcement learning, and physics-informed learning.</p>
       </header>
       <nav class="project-index" aria-label="Jump to a publication"><a href="#hype-ccdm">HYPE-CCDM</a><a href="#fp-sac">FP-SAC</a><a href="#nanodiff">NanoDiff</a></nav>
       <div class="project-list">
@@ -56,8 +56,7 @@
             <h2 id="hype-ccdm-title">Scalable Continuous Conditional Diffusion via Random Projections and Prioritized Sampling</h2>
             <p class="authors"><strong>Jaewon Kim*</strong>, Hyo-Seok Hwang*, Junhee Seok</p>
             <p class="author-note">* Equal contribution.</p>
-            <h3 class="project-question">Continuous conditional generation beyond scalar labels.</h3>
-            <p class="project-summary">Continuous conditional diffusion models usually condition on a single scalar label. HYPE-CCDM extends them to multi-dimensional regression labels. To handle distance concentration and label sparsity in high dimensions, we reformulate the vicinal objective with random 1D projections and add distance-aware prioritized sampling, achieving state-of-the-art results.</p>
+            <p class="project-summary">Continuous conditional generative modeling enables high-fidelity data synthesis under continuous conditions, but suffers from data sparsity and the curse of dimensionality. Continuous conditional diffusion models (CCDM) mitigate sparsity via vicinal risk minimization but fail to scale to multi-dimensional labels, where distance concentration renders local neighborhoods ill-defined and training unstable. In this paper, we introduce Hutchinson-Yielded Prioritized Estimation-based CCDM (HYPE-CCDM), a diffusion-based framework designed to scale conditional generation to high-dimensional continuous labels. For stable and accurate training, our approach combines a Hutchinson-based reformulation, which projects high-dimensional vicinal objectives to one-dimensional subspaces while preserving local geometric structure, and a distance-aware prioritized sampling strategy that focuses learning on the most informative regions of the label space. Extensive experiments demonstrate that HYPE-CCDM achieves superior performance across synthetic image generation, pose-conditioned face generation, and scientific inverse design tasks. Compared with CCDM and other competing baselines, the proposed framework consistently improves mode coverage, conditional fidelity, and reconstruction accuracy under high-dimensional continuous conditions. These results demonstrate that HYPE-CCDM provides an effective and scalable framework for continuous conditional generation beyond the scalar-label regime.</p>
             <p class="status-note">Paper and code will be linked once available.</p>
           </div>
         </article>
@@ -72,8 +71,7 @@
             <h2 id="fp-sac-title">Fokker–Planck Soft Actor–Critic</h2>
             <p class="authors">Hyo-Seok Hwang, <strong>Jaewon Kim</strong>, Junhee Seok</p>
             
-            <h3 class="project-question">Learning multi-modal policies without mode collapse.</h3>
-            <p class="project-summary">We recast soft policy improvement as steering a policy toward the stationary distribution of a Langevin SDE, and derive a distribution-level objective from the corresponding Fokker–Planck equation. Training normalizing-flow policies by minimizing the PDE residual avoids the mode collapse of reverse-KL updates, improving performance and stability on multi-goal, MuJoCo, and Meta-World benchmarks.</p>
+            <p class="project-summary">Learning expressive and multimodal policies is essential for solving complex continuous control tasks. We propose FP-SAC, which reinterprets soft policy improvement through stochastic differential equations and derives a distribution-level objective from the corresponding Fokker–Planck equation. By minimizing the PDE residual with physics-informed learning and leveraging normalizing flows, FP-SAC enables stable and accurate learning of multimodal policies, achieving higher performance and greater stability on multigoal, MuJoCo, and Meta-World benchmarks.</p>
             <div class="resource-links"><a class="resource-link resource-primary" href="https://ieeexplore.ieee.org/document/11563480">Paper</a><a class="resource-link" href="https://doi.org/10.1109/TNNLS.2026.3699399">DOI</a></div>
           </div>
         </article>
@@ -88,8 +86,7 @@
             <h2 id="nanodiff-title">NanoDiff: Physics-Guided Diffusion for Image-Based Nanophotonic Device Design</h2>
             <p class="authors">Insoo Kim, <strong>Jaewon Kim</strong>, Jangwon Seo, Junhee Seok†, Bohyung Han†</p>
             <p class="author-note">† Equal advising.</p>
-            <h3 class="project-question">Inverse design of nanophotonic devices without iterative simulation.</h3>
-            <p class="project-summary">NanoDiff treats nanophotonic devices as volumetric, image-like data. A differentiable surrogate predicts 3D electromagnetic fields from a device and wavelength, and a conditional diffusion model generates device geometries for a target transmittance and peak wavelength. During sampling, physics-guided score updates from a lightweight transmittance predictor steer each design toward the target, with no iterative numerical optimization.</p>
+            <p class="project-summary">Deep learning has enabled efficient surrogates for computationally intensive physical simulations, yet existing approaches to nanophotonic device design remain limited in scalability and often fail to enforce physical accuracy. We present NanoDiff, a physics-aware deep learning framework that unifies electromagnetic field prediction and inverse design of nanophotonic devices by leveraging image-like volumetric representations. We utilize a large-scale dataset of device-field pairs generated with a full forward simulator, alongside a differentiable surrogate network that predicts electromagnetic fields efficiently while preserving physical consistency. For inverse design, we employ a conditional denoising diffusion model trained to generate device geometries conditioned on target optical responses (e.g., target transmittance and peak wavelength), and incorporate a novel physics-guided score sampling strategy during inference to align generated designs with physical laws using a lightweight differentiable transmittance predictor trained to approximate the full simulator. This combination enables automated, physically grounded device generation without iterative numerical optimization, delivering accurate field predictions and robust inverse design performance, establishing a scalable paradigm for physics-constrained generative modeling in nanophotonics.</p>
             <p class="status-note">Paper and code will be linked once available.</p>
           </div>
         </article>
