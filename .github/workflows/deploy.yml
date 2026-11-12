@@ -4,7 +4,7 @@ name: Deploy site
 # so the GitHub Pages setting does not need to change.
 on:
   push:
-    branches: [main]
+    branches: [master, main]
   workflow_dispatch:
 
 permissions:

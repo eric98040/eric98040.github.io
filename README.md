@@ -17,7 +17,7 @@ The header and footer are repeated in each HTML file; edit all three when changi
 
 ## Deploy
 
-Push to `main`. `.github/workflows/deploy.yml` copies the site to the `gh-pages` branch,
+Push to `master`. `.github/workflows/deploy.yml` copies the site to the `gh-pages` branch,
 which GitHub Pages serves at https://jaewon.work.
 
 Preview locally: `python3 -m http.server` and open http://localhost:8000.
