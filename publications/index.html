@@ -48,9 +48,9 @@
       <div class="project-list">
         <article id="hype-ccdm" class="research-project" aria-labelledby="hype-ccdm-title">
           <div class="project-visual">
-            <div class="figure-box project-image no-pad"><img src="/assets/img/hype-ccdm.svg" alt="Labels projected onto a random direction v; neighbors inside the projected band are sampled with priority decreasing in projected distance." loading="eager" /></div>
+            <div class="figure-box project-image strip"><svg class="research-thumbnail" viewBox="0 0 600 224" role="img" aria-label="Euclidean vicinity with few neighbors, a random projection band with many neighbors, and prioritized sampling of close neighbors."><image href="/assets/img/hype-ccdm-panels.jpg" x="0" y="0" width="600" height="186.2" preserveAspectRatio="xMidYMid meet"/><text x="93.1" y="212" text-anchor="middle" class="fig-label">Euclidean vicinity</text><text x="300.0" y="212" text-anchor="middle" class="fig-label">Random projections</text><text x="506.9" y="212" text-anchor="middle" class="fig-label fig-label-accent">Prioritized sampling</text></svg></div>
             <div class="image-caption"><span>01</span><span>Generative models</span></div>
-            <p class="figure-note">Labels are projected onto a random direction <em>v</em>. Neighbors inside the projected band (which contains the Euclidean ball) are sampled with priority that decreases with projected distance.</p>
+            
           </div>
           <div class="project-copy">
             <p class="venue"><span>Preprint</span><span>Under review</span></p>
@@ -64,9 +64,9 @@
         </article>
         <article id="fp-sac" class="research-project" aria-labelledby="fp-sac-title">
           <div class="project-visual">
-            <a class="figure-box project-image no-pad" href="https://ieeexplore.ieee.org/document/11563480" aria-label="View FP-SAC"><img src="/assets/img/fp-sac.png" alt="Trajectories in a 2D multi-goal environment for SAC, SAC-NF, WGASAC, and FP-SAC." loading="lazy" /></a>
+            <a class="figure-box project-image strip" href="https://ieeexplore.ieee.org/document/11563480" aria-label="View FP-SAC"><svg class="research-thumbnail" viewBox="0 0 600 224" role="img" aria-label="Trajectories in a 2D multi-goal environment for SAC-NF, WGASAC, and FP-SAC."><image href="/assets/img/fp-sac-panels.jpg" x="0" y="0" width="600" height="186.2" preserveAspectRatio="xMidYMid meet"/><text x="93.1" y="212" text-anchor="middle" class="fig-label">SAC-NF</text><text x="300.0" y="212" text-anchor="middle" class="fig-label">WGASAC</text><text x="506.9" y="212" text-anchor="middle" class="fig-label fig-label-accent">FP-SAC</text></svg></a>
             <div class="image-caption"><span>02</span><span>Reinforcement learning</span></div>
-            <p class="figure-note">Trajectories in a 2D multi-goal environment: (a) SAC, (b) SAC-NF, (c) WGASAC, (d) FP-SAC.</p>
+            
           </div>
           <div class="project-copy">
             <p class="venue"><span>IEEE TNNLS</span><span>2026</span></p>
@@ -80,7 +80,7 @@
         </article>
         <article id="nanodiff" class="research-project" aria-labelledby="nanodiff-title">
           <div class="project-visual">
-            <div class="figure-box project-image no-pad"><div class="figure-placeholder" aria-hidden="true"><span>AI for science</span><strong>NanoDiff</strong></div></div>
+            <div class="figure-box project-image strip"><svg class="research-thumbnail" viewBox="0 0 600 224" role="img" aria-label="Target transmittance spectrum, generated device layout, and the corresponding 3D device."><image href="/assets/img/nanodiff-panels.jpg" x="0" y="0" width="600" height="186.2" preserveAspectRatio="xMidYMid meet"/><text x="93.1" y="212" text-anchor="middle" class="fig-label">Target response</text><text x="300.0" y="212" text-anchor="middle" class="fig-label">Generated layout</text><text x="506.9" y="212" text-anchor="middle" class="fig-label">3D device</text></svg></div>
             <div class="image-caption"><span>03</span><span>AI for science</span></div>
             
           </div>
@@ -89,8 +89,8 @@
             <h2 id="nanodiff-title">NanoDiff: Physics-Guided Diffusion for Image-Based Nanophotonic Device Design</h2>
             <p class="authors">Insoo Kim, <strong>Jaewon Kim</strong>, Jangwon Seo, Junhee Seok†, Bohyung Han†</p>
             <p class="author-note">† Equal advising.</p>
-            <h3 class="project-question">Designing nanophotonic devices with physics-guided diffusion.</h3>
-            <p class="project-summary">A diffusion model for image-based inverse design of nanophotonic devices, guided by the physics of the target optical response.</p>
+            <h3 class="project-question">Inverse design of nanophotonic devices without iterative simulation.</h3>
+            <p class="project-summary">NanoDiff treats nanophotonic devices as volumetric, image-like data. A differentiable surrogate predicts 3D electromagnetic fields from a device and wavelength, and a conditional diffusion model generates device geometries for a target transmittance and peak wavelength. During sampling, physics-guided score updates from a lightweight transmittance predictor steer each design toward the target, with no iterative numerical optimization.</p>
             <p class="status-note">Paper and code will be linked once available.</p>
           </div>
         </article>

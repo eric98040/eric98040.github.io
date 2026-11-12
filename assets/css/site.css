@@ -408,3 +408,12 @@ html.dark .cv-reader { background: #303632; }
 
 .figure-note { font-size: .74rem; line-height: 1.55; color: var(--muted); margin-top: 6px; }
 .figure-note em { font-family: var(--serif); font-size: .9rem; }
+
+/* Three-panel figures with in-figure labels */
+.figure-box.strip { display: block; height: auto; padding: 14px 14px 8px; }
+.research-thumbnail { display: block; width: 100%; height: auto; }
+.fig-label { font-family: var(--sans); font-size: 15px; fill: #4b514d; }
+.fig-label-accent { fill: #365f6b; font-weight: 700; }
+.research-project { grid-template-columns: 380px minmax(0, 1fr); gap: 44px; }
+@media (max-width: 900px) { .research-project { grid-template-columns: 300px minmax(0, 1fr); gap: 30px; } }
+@media (max-width: 640px) { .research-project { grid-template-columns: 1fr; gap: 22px; } }
