@@ -43,21 +43,21 @@
         <h1>Publications</h1>
         <p>Generative models, reinforcement learning, and physics-informed learning.</p>
       </header>
-      <nav class="project-index" aria-label="Jump to a publication"><a href="#fp-sac">FP-SAC</a><a href="#hype-ccdm">HYPE-CCDM</a><a href="#nanodiff">NanoDiff</a></nav>
+      <nav class="project-index" aria-label="Jump to a publication"><a href="#nanodiff">NanoDiff</a><a href="#hype-ccdm">HYPE-CCDM</a><a href="#fp-sac">FP-SAC</a></nav>
       <div class="project-list">
-        <article id="fp-sac" class="research-project" aria-labelledby="fp-sac-title">
+        <article id="nanodiff" class="research-project" aria-labelledby="nanodiff-title">
           <div class="project-visual">
-            <a class="figure-box project-image strip" href="https://ieeexplore.ieee.org/document/11563480" aria-label="View FP-SAC"><svg class="research-thumbnail" viewBox="0 0 600 224" role="img" aria-label="Trajectories in a 2D multi-goal environment for SAC-NF, WGASAC, and FP-SAC."><image href="/assets/img/fp-sac-panels.jpg" x="0" y="0" width="600" height="186.2" preserveAspectRatio="xMidYMid meet"/><text x="93.1" y="212" text-anchor="middle" class="fig-label">SAC-NF</text><text x="300.0" y="212" text-anchor="middle" class="fig-label">WGASAC</text><text x="506.9" y="212" text-anchor="middle" class="fig-label fig-label-accent">FP-SAC</text></svg></a>
-            <div class="image-caption"><span>01</span><span>Reinforcement learning</span></div>
+            <div class="figure-box project-image strip"><svg class="research-thumbnail" viewBox="0 0 600 224" role="img" aria-label="A voxel nanophotonic device and its electric and magnetic field distributions."><image href="/assets/img/nanodiff-panels.jpg" x="0" y="0" width="600" height="186.2" preserveAspectRatio="xMidYMid meet"/><text x="93.1" y="212" text-anchor="middle" class="fig-label">Device</text><text x="300.0" y="212" text-anchor="middle" class="fig-label">Predicted E field</text><text x="506.9" y="212" text-anchor="middle" class="fig-label">Predicted H field</text></svg></div>
+            <div class="image-caption"><span>01</span><span>AI for science</span></div>
             
           </div>
           <div class="project-copy">
-            <p class="venue"><span>IEEE TNNLS</span><span>2026</span></p>
-            <h2 id="fp-sac-title">Fokker–Planck Soft Actor–Critic</h2>
-            <p class="authors">Hyo-Seok Hwang, <strong>Jaewon Kim</strong>, Junhee Seok</p>
-            
-            <p class="project-summary">FP-SAC derives a distribution-level policy objective from the Fokker–Planck equation of a soft policy improvement SDE. Minimizing its PDE residual with normalizing-flow policies yields stable multimodal policies on multigoal, MuJoCo, and Meta-World benchmarks.</p>
-            <div class="resource-links"><a class="resource-link resource-primary" href="https://ieeexplore.ieee.org/document/11563480">Paper</a><a class="resource-link" href="https://doi.org/10.1109/TNNLS.2026.3699399">DOI</a></div>
+            <p class="venue"><span>Preprint</span><span>Under review</span></p>
+            <h2 id="nanodiff-title">NanoDiff: Physics-Guided Diffusion for Image-Based Nanophotonic Device Design</h2>
+            <p class="authors">Insoo Kim, <strong>Jaewon Kim</strong>, Jangwon Seo, Junhee Seok†, Bohyung Han†</p>
+            <p class="author-note">† Equal advising.</p>
+            <p class="project-summary">NanoDiff unifies electromagnetic field prediction and inverse design of nanophotonic devices. A conditional diffusion model generates devices for a target transmittance and peak wavelength, and physics-guided score sampling with a differentiable surrogate keeps designs physically consistent.</p>
+            <p class="status-note">Paper and code will be linked once available.</p>
           </div>
         </article>
         <article id="hype-ccdm" class="research-project" aria-labelledby="hype-ccdm-title">
@@ -75,19 +75,19 @@
             <p class="status-note">Paper and code will be linked once available.</p>
           </div>
         </article>
-        <article id="nanodiff" class="research-project" aria-labelledby="nanodiff-title">
+        <article id="fp-sac" class="research-project" aria-labelledby="fp-sac-title">
           <div class="project-visual">
-            <div class="figure-box project-image strip"><svg class="research-thumbnail" viewBox="0 0 600 224" role="img" aria-label="A voxel nanophotonic device and its electric and magnetic field distributions."><image href="/assets/img/nanodiff-panels.jpg" x="0" y="0" width="600" height="186.2" preserveAspectRatio="xMidYMid meet"/><text x="93.1" y="212" text-anchor="middle" class="fig-label">Device</text><text x="300.0" y="212" text-anchor="middle" class="fig-label">Predicted E field</text><text x="506.9" y="212" text-anchor="middle" class="fig-label">Predicted H field</text></svg></div>
-            <div class="image-caption"><span>03</span><span>AI for science</span></div>
+            <a class="figure-box project-image strip" href="https://ieeexplore.ieee.org/document/11563480" aria-label="View FP-SAC"><svg class="research-thumbnail" viewBox="0 0 600 224" role="img" aria-label="Trajectories in a 2D multi-goal environment for SAC-NF, WGASAC, and FP-SAC."><image href="/assets/img/fp-sac-panels.jpg" x="0" y="0" width="600" height="186.2" preserveAspectRatio="xMidYMid meet"/><text x="93.1" y="212" text-anchor="middle" class="fig-label">SAC-NF</text><text x="300.0" y="212" text-anchor="middle" class="fig-label">WGASAC</text><text x="506.9" y="212" text-anchor="middle" class="fig-label fig-label-accent">FP-SAC</text></svg></a>
+            <div class="image-caption"><span>03</span><span>Reinforcement learning</span></div>
             
           </div>
           <div class="project-copy">
-            <p class="venue"><span>Preprint</span><span>Under review</span></p>
-            <h2 id="nanodiff-title">NanoDiff: Physics-Guided Diffusion for Image-Based Nanophotonic Device Design</h2>
-            <p class="authors">Insoo Kim, <strong>Jaewon Kim</strong>, Jangwon Seo, Junhee Seok†, Bohyung Han†</p>
-            <p class="author-note">† Equal advising.</p>
-            <p class="project-summary">NanoDiff unifies electromagnetic field prediction and inverse design of nanophotonic devices. A conditional diffusion model generates devices for a target transmittance and peak wavelength, and physics-guided score sampling with a differentiable surrogate keeps designs physically consistent.</p>
-            <p class="status-note">Paper and code will be linked once available.</p>
+            <p class="venue"><span>IEEE TNNLS</span><span>2026</span></p>
+            <h2 id="fp-sac-title">Fokker–Planck Soft Actor–Critic</h2>
+            <p class="authors">Hyo-Seok Hwang, <strong>Jaewon Kim</strong>, Junhee Seok</p>
+            
+            <p class="project-summary">FP-SAC derives a distribution-level policy objective from the Fokker–Planck equation of a soft policy improvement SDE. Minimizing its PDE residual with normalizing-flow policies yields stable multimodal policies on multigoal, MuJoCo, and Meta-World benchmarks.</p>
+            <div class="resource-links"><a class="resource-link resource-primary" href="https://ieeexplore.ieee.org/document/11563480">Paper</a><a class="resource-link" href="https://doi.org/10.1109/TNNLS.2026.3699399">DOI</a></div>
           </div>
         </article>
       </div>
